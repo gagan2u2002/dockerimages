@@ -17,6 +17,12 @@ STEP 2: docker tag <image id> centos/mysql-56-centos7
   
 STEP 3: docker run -d --name mysql_database -e MYSQL_USER=user -e MYSQL_PASSWORD=pass -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 centos/mysql-56-centos7
 
+or 
+   you can run STEP 3 directly on command prompt skip STEP 1 and STEP 2 as these steps are for installing mysqlImage.tar 
+   
+   * For installing Mysql 5.7 version on centOS use below command
+   docker run -d --name mysql_database -e MYSQL_USER=user -e MYSQL_PASSWORD=pass -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 centos/mysql-57-centos7
+
 *Where <image id> is the id of the loaded image from first command.
 Executing above commands will run an instance of mysql in docker container at port 3306.
   
@@ -35,6 +41,7 @@ C:\Users\gagan>docker tag sha256:ded746533e057dba6ab5a876208a1d7768a89f19356dce3
 
 C:\Users\gagan>docker run -d --name mysql_database -e MYSQL_USER=user -e MYSQL_PASSWORD=pass -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 centos/mysql-56-centos7
 b62920551a4d356bef21a775a30b21b2d5c30e50b93e6c0a8c2d1a38bde67bc5
+
 
 C:\Users\gagan>docker ps -a
 CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS              PORTS                    NAMES
