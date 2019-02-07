@@ -20,7 +20,7 @@ STEP 3: docker run -d --name mysql_database -e MYSQL_USER=user -e MYSQL_PASSWORD
 or 
    you can run STEP 3 directly on command prompt skip STEP 1 and STEP 2 as these steps are for installing mysqlImage.tar 
    
-   * For installing Mysql 5.7 version on centOS use below command
+   * For installing Mysql 5.7 version on centOS use below command                
    docker run -d --name mysql_database -e MYSQL_USER=user -e MYSQL_PASSWORD=pass -e MYSQL_ROOT_PASSWORD=pass -e MYSQL_DATABASE=db -p 3306:3306 centos/mysql-57-centos7
 
 *Where <image id> is the id of the loaded image from first command.
