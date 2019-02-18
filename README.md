@@ -46,5 +46,6 @@ b62920551a4d356bef21a775a30b21b2d5c30e50b93e6c0a8c2d1a38bde67bc5
 C:\Users\gagan>docker ps -a
 CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS              PORTS                    NAMES
 b62920551a4d        centos/mysql-56-centos7   "container-entrypoin…"   15 seconds ago      Up 13 seconds       0.0.0.0:3306->3306/tcp   mysql_database
+b62920551a4d1        centos/mysql-56-centos7   "container-entrypoin…"   15 seconds ago      Up 13 seconds       0.0.0.0:3306->3306/tcp   mysql_database
 
 
