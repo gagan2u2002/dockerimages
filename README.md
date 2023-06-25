@@ -1,11 +1,11 @@
 # dockerimages
-Different Docker(s) images i have put on thisand this will help to make your environment using docker.
+Different Docker(s) images i have put on this and this will help to make your environment using docker.
 
-i have setup docker on my window 10 Box by installing docker ToolBox . Docker Toolbox avaliable for window 10.
+i have setup docker on my window 10 Box by installing docker toolBox . Docker Toolbox avaliable for window 10.
 For setup purpose you can use below url-
 https://store.docker.com/editions/community/docker-ce-desktop-windows
 
-If you wana to look docker documnetation you can follow below link , there is a good documentation provided by Docker Team
+If you want to look docker documnetation you can follow below link , there is a good documentation provided by Docker Team
 https://docs.docker.com/docker-for-windows/
 
 
