@@ -9,7 +9,7 @@ If you want to look docker documnetation you can follow below link , there is a 
 https://docs.docker.com/docker-for-windows/
 
 
-# Docker Instruction for making My-SQL environment on Window Box
+# Docker Instruction for making My-SQL environment on Window Box/machine
 
 STEP 1: docker load -i mysqlImage.tar  
 
