@@ -1,7 +1,7 @@
 # docker image's   
 Different Docker(s) images i have put on this and this will help to make your environment using docker.
 
-i have setup docker on my box  installing docker toolBox . Docker Toolbox avaliable for window 10 plateform.
+i have setup docker on my box  installing docker toolBox . Docker Toolbox avaliable for window 10 plateform.  
 For setup purpose you can use below url-
 https://store.docker.com/editions/community/docker-ce-desktop-windows
 
